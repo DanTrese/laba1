@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>replit</title>
+</head>
+<body>
+    <h1>Галерея</h1>
+
+    <label>Оберіть зображення:</label>
+    <select id="list">
+        <option id="name1" value="1.jpg">Зображення 1</option>
+        <option id="name2" value="2.jpg">Зображення 2</option>
+        <option id="name3" value="3.jpg">Зображення 3</option>
+        <option id="name4" value="4.jpg">Зображення 4</option>
+        <option id="name5" value="5.jpg">Зображення 5</option>
+        <option id="name6" value="6.jpg">Зображення 6</option>
+        <option id="name7" value="7.jpg">Зображення 7</option>
+        <option id="name8" value="8.jpg">Зображення 8</option>
+        <option id="name9" value="9.jpg">Зображення 9</option>
+    </select>
+
+
+    <div>
+        <img id="img" src="images/1.jpg" alt="Зображення 1" style="border: 2px solid black; width: 300px; height: 200px;">
+    </div>
+
+    <label>Ширина:</label>
+    <input type="number" id="width" value="300"><br>
+
+    <label>Висота:</label>
+    <input type="number" id="height" value="200"><br>
+
+    <label>Товщина рамки:</label>
+    <input type="number" id="border" value="2"><br>
+
+    <label>Альтернативна назва:</label>
+    <input type="text" id="altName"><br>
+
+    <button onclick="updimg()">Оновити</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
